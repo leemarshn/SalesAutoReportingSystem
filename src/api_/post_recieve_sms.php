@@ -6,13 +6,13 @@
  * Time: 4:35 PM
  */
 
-$servername = "localhost";
-$username   = "dynaphar_app";
-$password   = "733securex";
-$dbname     = "dynaphar_app";
+$servername = "";
+$username   = "";
+$password   = "";
+$dbname     = "";
 
-$afriusername = "leemarshn";
-$apikey       = "eeec2690ad46812b217d9829ef9656a6208c42c859797e9de2bdcea8d9107cd3";
+$afriusername = "";
+$apikey       = "";
 require_once('AfricasTalkingGateway.php');
 $gateway     = new AfricasTalkingGateway($afriusername, $apikey);
 $shortCode   = "22384";
