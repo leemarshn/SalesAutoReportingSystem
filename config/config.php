@@ -7,10 +7,10 @@
  */
 
 //DB details
-$dbHost = 'localhost';
-$dbUsername = 'root';
-$dbPassword = '733securex';
-$dbName = 'dyna101';
+$dbHost = '';
+$dbUsername = '';
+$dbPassword = '';
+$dbName = '';
 
 //Create connection and select DB
 $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
